@@ -1,0 +1,17 @@
+name: ds-notebook-to-production
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+    - pandas==2.1.4
+    - jupyterlab
+    - python-dotenv
+    - PyYAML
+    - seaborn==0.13.2  
+    - scikit-learn==1.6.1  
+    - jupyter-contrib-nbextensions 
+    - scipy==1.15.2
+    - lightgbm==4.6.0
